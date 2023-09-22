@@ -1,0 +1,178 @@
+/* NAVBAR */
+nav.navbar {
+  background-color: #65451f;
+}
+
+nav.navbar a {
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+nav.navbar ul li a:hover {
+  background-color: #93652d;
+  color: white;
+}
+
+.navbar-nav.navbar-item a:active {
+  color: white;
+}
+
+nav div.container a.judul {
+  font-weight: 700;
+  font-size: 26px;
+}
+
+nav.navbar button {
+  color: white;
+}
+
+/* MAIN */
+section#main {
+  padding-top: 120px;
+  background-color: #c8ae7d;
+  font-family: "Roboto Slab", serif;
+}
+
+section#main h1 {
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px black;
+  color: #93652d;
+}
+
+section#main p {
+  font-size: 16px;
+  padding-left: 40px;
+  max-width: 700px;
+  text-align: justify;
+}
+
+section#main div#jumbotron {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+section#main div#jumbotron img {
+  max-height: 500px;
+  margin-right: 100px;
+}
+
+/* ABOUT */
+section#about-us {
+  font-family: "Roboto Slab", serif;
+  background-color: #eac696;
+  height: max-content;
+  padding-top: 100px;
+}
+
+section#about-us div.about {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+section#about-us div.about p {
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+section#about-us div.about h2 {
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-shadow: 1px 1px black;
+  color: #93652d;
+}
+
+/* WISHLIST */
+section#wishlist {
+  background-color: #c8ae7d;
+  font-family: "Roboto Slab", serif;
+  height: 100vh;
+  padding-top: 100px;
+}
+
+section#wishlist h2 {
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-shadow: 1px 1px black;
+  color: #93652d;
+}
+
+section#wishlist a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer {
+  background-color: #65451f;
+  padding-bottom: 3px;
+  padding-top: 7px;
+}
+
+footer p {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 500px) {
+  section#main p {
+    font-size: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: justify;
+  }
+
+  section#main h1 {
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px black;
+    color: #93652d;
+  }
+
+  section#main div#jumbotron {
+    height: max-content;
+    display: inherit;
+    padding-bottom: 100px;
+  }
+
+  section#main div#jumbotron img {
+    display: none;
+  }
+
+  section#about-us {
+    font-family: "Roboto Slab", serif;
+    background-color: #eac696;
+    height: max-content;
+    padding-top: 100px;
+  }
+
+  section#about-us div.about p {
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+    font-size: 10px;
+  }
+
+  section#about-us div.about {
+    padding-bottom: 100px;
+  }
+
+  section#wishlist {
+    background-color: #c8ae7d;
+    font-family: "Roboto Slab", serif;
+    height: 100vh;
+    padding-top: 100px;
+  }
+
+  section#wishlist a p {
+    font-size: 12px;
+  }
+
+  section#wishlist a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
